@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Little Taco Shop</title>
+    Error: Element nav not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 13, column 9; to line 13, column 13
+
+>↩        <nav>↩     
+
+Contexts in which element nav may be used:
+Where sectioning content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Error: End tag article seen, but there were open elements.
+
+From line 17, column 7; to line 17, column 16
+
+li>↩      </article>↩    <
+
+Error: Unclosed element nav.
+
+From line 13, column 9; to line 13, column 13
+
+>↩        <nav>↩     
+
+Error: Unclosed element ul.
+
+From line 12, column 5; to line 12, column 8
+
+</h1>↩    <ul>↩     
+
+Error: Stray end tag ul.
+
+From line 18, column 5; to line 18, column 9
+
+icle>↩    </ul>↩    <
+
+Error: Stray end tag nav.
+
+From line 19, column 5; to line 19, column 10
+
+</ul>↩    </nav>↩    ↩
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 23, column 5; to line 25, column 78
+
+gure>↩    <img↩      src="https://jarritos.com/respectthetaco/wp-content/uploads/2019/08/7CC5CCF9EE5A4D88BED4A8231C9DA9BF-768x512.jpg"↩      alt="Tacos And A Drink" title="WE love taco!" width="400" height="267"/>↩   <f
+
+Error: Bad value for attribute src on element img: Must be non-empty.
+
+From line 31, column 5; to line 31, column 69
+
+gure>↩    <img src="" alt=""  title="More Drinks" width="400" height="267">↩    <
+
+Error: Element h2 not allowed as child of element b in this context. (Suppressing further errors from this subtree.)
+
+From line 35, column 8; to line 35, column 11
+
+">↩    <b><h2><p>Abo
+
+Content model for element b:
+Phrasing content.
+Warning: The border attribute on the table element is obsolete. Consider specifying img { border: 0; } in CSS instead.
+
+From line 44, column 7; to line 44, column 24
+
+h2>↩      <table border="2">↩     
+
+Error: Stray end tag thead.
+
+From line 73, column 16; to line 74, column 16
+
+     </tr>↩        </thead>↩     
+
+Error: No p element in scope but a p end tag seen.
+
+From line 105, column 7; to line 105, column 10
+
+re>↩      </p>↩    <
+
+Error: End tag for body seen, but there were unclosed elements.
+
+From line 109, column 3; to line 109, column 9
+
+>↩    ↩↩  </body>↩</htm
+
+Error: Unclosed element main.
+
+From line 33, column 5; to line 33, column 10
+
+ <hr>↩    <main>↩     
+  </head>
+  <body>
+    <header>
+      <article id="top">
+    <h1>Welcome to The Little Taco Shop</h1>
+    <ul>
+        <nav>
+      <li><a href="#about" >About LTS</a></li>
+      <li><a href="#menu" >Our Menu</a></li>
+      </article>
+    </ul>
+    </nav>
+    </header>
+    <figure>
+    <img
+      src="https://jarritos.com/respectthetaco/wp-content/uploads/2019/08/7CC5CCF9EE5A4D88BED4A8231C9DA9BF-768x512.jpg"
+      alt="Tacos And A Drink" title="WE love taco!" width="300" height="200"/>
+   <figcaption>
+    Tacos And a Drink
+   </figcaption>
+    </figure>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2DACMoc9plX1X8DyDF800w62EmQrBxeuMlg&s" alt="Drinks"  title="More Drinks" width="300" height="200">
+   <img src="https://thumbs.dreamstime.com/b/cold-cocktail-pink-champagne-tall-glass-backdrop-restaurant-atmosphere-summer-drinks-cocktails-motion-147776529.jpg" alt="" width="300" height="200">
+    <hr>
+    <main>
+      <section id="about">
+    <b><h2><p>About LTS</p></h2></b>
+    LTS was founded in 2022.Our shop was built from a love of tacos.We hope our shop adds a unique and interesting place to our little town.
+    </section>
+    <br>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+     <article id="menu">
+      <h2>our menu</h2>
+      <table border="2">
+        <caption>
+          our tacos
+        </caption>
+        <thead>
+          <tr>
+            <th>tacos</th>
+            <th scope="col">quantity</th>
+            <th scope="col">price</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">Crunchy</th>
+                <td>1</td>
+                <td>1.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3.50</td>
+            </tr>
+          <tr>
+            <th>tacos</th>
+            <th scope="col">quantity</th>
+            <th scope="col">price</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="3">Soft</th>
+                <td>1</td>
+                <td>2.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4.50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> CHips &amp;Salsa 2 dollars</td>
+            </tr>
+        </tfoot>
+      </table>
+      <br>
+      <p>
+      <a href="#top">Back to top</a></pre>
+      </p>
+    </article>
+  </body>
+</html>
